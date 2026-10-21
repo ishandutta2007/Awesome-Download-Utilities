@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Download-Utilities/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Download-Utilities?color=yellow&style=flat-square" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Download-Utilities/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Download-Utilities?color=yellow&style=flat-square" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Download-Utilities/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Download-Utilities?color=blue&style=flat-square" alt="Forks" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Download-Utilities/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
@@ -76,57 +76,57 @@ The table below provides a comprehensive comparison of leading SaaS and commerci
 
 ## 🔓 Open-Source GitHub Projects
 
-The following curated open-source download utilities are sorted in descending order by GitHub star count. Each entry features a live star count badge linking directly to the project's stargazers page.
+The following curated open-source download utilities are sorted in descending order by GitHub Stars_Count. Each entry features a live Stars_Count badge linking directly to the project's stargazers page.
 
-1. **[yt-dlp](https://github.com/yt-dlp/yt-dlp)** [![GitHub stars](https://img.shields.io/github/stars/yt-dlp/yt-dlp?style=social&color=white)](https://github.com/yt-dlp/yt-dlp/stargazers)  
+1. **[yt-dlp](https://github.com/yt-dlp/yt-dlp)** [![GitHub_Stars](https://img.shields.io/github/stars/yt-dlp/yt-dlp?style=social&color=white)](https://github.com/yt-dlp/yt-dlp/stargazers)  
    The gold standard command-line audio/video downloader supporting thousands of media platforms. Features multi-threaded chunk downloading, custom post-processing through `ffmpeg`, sponsorblock integration, and comprehensive metadata extraction.
 
-2. **[Motrix](https://github.com/agalwood/Motrix)** [![GitHub stars](https://img.shields.io/github/stars/agalwood/Motrix?style=social&color=white)](https://github.com/agalwood/Motrix/stargazers)  
+2. **[Motrix](https://github.com/agalwood/Motrix)** [![GitHub_Stars](https://img.shields.io/github/stars/agalwood/Motrix?style=social&color=white)](https://github.com/agalwood/Motrix/stargazers)  
    A full-featured, cross-platform download manager built on Electron and powered by `aria2`. Offers a sleek, modern UI supporting HTTP, FTP, BitTorrent, and Magnet links with up to 64 concurrent download threads and automated tracker updates.
 
-3. **[you-get](https://github.com/soimort/you-get)** [![GitHub stars](https://img.shields.io/github/stars/soimort/you-get?style=social&color=white)](https://github.com/soimort/you-get/stargazers)  
+3. **[you-get](https://github.com/soimort/you-get)** [![GitHub_Stars](https://img.shields.io/github/stars/soimort/you-get?style=social&color=white)](https://github.com/soimort/you-get/stargazers)  
    A tiny command-line utility written in Python 3 to scrape and download media contents (videos, audios, images) from the Web when standard browser downloads fail.
 
-4. **[aria2](https://github.com/aria2/aria2)** [![GitHub stars](https://img.shields.io/github/stars/aria2/aria2?style=social&color=white)](https://github.com/aria2/aria2/stargazers)  
+4. **[aria2](https://github.com/aria2/aria2)** [![GitHub_Stars](https://img.shields.io/github/stars/aria2/aria2?style=social&color=white)](https://github.com/aria2/aria2/stargazers)  
    The foundational ultra-fast, multi-protocol, and multi-source command-line download utility. Supports HTTP/HTTPS, FTP, SFTP, BitTorrent, and Metalink. Features JSON-RPC and XML-RPC interfaces, chunked segmented downloading, and minimal memory footprint.
 
-5. **[qBittorrent](https://github.com/qbittorrent/qBittorrent)** [![GitHub stars](https://img.shields.io/github/stars/qbittorrent/qBittorrent?style=social&color=white)](https://github.com/qbittorrent/qBittorrent/stargazers)  
+5. **[qBittorrent](https://github.com/qbittorrent/qBittorrent)** [![GitHub_Stars](https://img.shields.io/github/stars/qbittorrent/qBittorrent?style=social&color=white)](https://github.com/qbittorrent/qBittorrent/stargazers)  
    An open-source Qt-based BitTorrent client with integrated search engines, sequential downloading for media previews, bandwidth scheduler, advanced web remote control UI, and full IP filtering.
 
-6. **[lux](https://github.com/iawia002/lux)** [![GitHub stars](https://img.shields.io/github/stars/iawia002/lux?style=social&color=white)](https://github.com/iawia002/lux/stargazers)  
+6. **[lux](https://github.com/iawia002/lux)** [![GitHub_Stars](https://img.shields.io/github/stars/iawia002/lux?style=social&color=white)](https://github.com/iawia002/lux/stargazers)  
    A blazingly fast and lightweight video download CLI library written in Go. Supports parallel stream downloads, automatic segment concatenation, and cookies handling for authenticated media sources.
 
-7. **[gallery-dl](https://github.com/mikf/gallery-dl)** [![GitHub stars](https://img.shields.io/github/stars/mikf/gallery-dl?style=social&color=white)](https://github.com/mikf/gallery-dl/stargazers)  
+7. **[gallery-dl](https://github.com/mikf/gallery-dl)** [![GitHub_Stars](https://img.shields.io/github/stars/mikf/gallery-dl?style=social&color=white)](https://github.com/mikf/gallery-dl/stargazers)  
    An advanced CLI program designed to batch download image galleries, collections, and manga archives from hundreds of image hosting platforms, featuring customizable folder naming schemes and tagging.
 
-8. **[ab-download-manager](https://github.com/amir1376/ab-download-manager)** [![GitHub stars](https://img.shields.io/github/stars/amir1376/ab-download-manager?style=social&color=white)](https://github.com/amir1376/ab-download-manager/stargazers)  
+8. **[ab-download-manager](https://github.com/amir1376/ab-download-manager)** [![GitHub_Stars](https://img.shields.io/github/stars/amir1376/ab-download-manager?style=social&color=white)](https://github.com/amir1376/ab-download-manager/stargazers)  
    A modern desktop download manager and speed accelerator written with Kotlin and Compose Multiplatform. Features browser extensions for Chrome and Firefox, dynamic multi-connection splitting, download queuing, and speed limiters.
 
-9. **[Transmission](https://github.com/transmission/transmission)** [![GitHub stars](https://img.shields.io/github/stars/transmission/transmission?style=social&color=white)](https://github.com/transmission/transmission/stargazers)  
+9. **[Transmission](https://github.com/transmission/transmission)** [![GitHub_Stars](https://img.shields.io/github/stars/transmission/transmission?style=social&color=white)](https://github.com/transmission/transmission/stargazers)  
    A fast, lightweight, and hardware-efficient cross-platform BitTorrent client. Features native macOS, GTK, and Qt frontends alongside a headless daemon with web client and JSON-RPC API for headless servers and NAS setups.
 
-10. **[File Centipede](https://github.com/filecxx/FileCentipede)** [![GitHub stars](https://img.shields.io/github/stars/filecxx/FileCentipede?style=social&color=white)](https://github.com/filecxx/FileCentipede/stargazers)  
+10. **[File Centipede](https://github.com/filecxx/FileCentipede)** [![GitHub_Stars](https://img.shields.io/github/stars/filecxx/FileCentipede?style=social&color=white)](https://github.com/filecxx/FileCentipede/stargazers)  
     An all-in-one internet upload and download manager supporting HTTP(S), FTP(S), SSH, Magnet, BitTorrent, m3u8 streams, and WebDAV with customizable JavaScript scripting rules and browser extensions.
 
-11. **[Xtreme Download Manager (XDM)](https://github.com/subhra74/xdm)** [![GitHub stars](https://img.shields.io/github/stars/subhra74/xdm?style=social&color=white)](https://github.com/subhra74/xdm/stargazers)  
+11. **[Xtreme Download Manager (XDM)](https://github.com/subhra74/xdm)** [![GitHub_Stars](https://img.shields.io/github/stars/subhra74/xdm?style=social&color=white)](https://github.com/subhra74/xdm/stargazers)  
     A powerful download accelerator claiming up to 500% speed increase. Supports video capture from streaming sites, seamless browser integration (Chrome, Firefox, Edge, Brave), download resumption, and scheduled queue execution.
 
-12. **[Persepolis Download Manager](https://github.com/persepolisdm/persepolis)** [![GitHub stars](https://img.shields.io/github/stars/persepolisdm/persepolis?style=social&color=white)](https://github.com/persepolisdm/persepolis/stargazers)  
+12. **[Persepolis Download Manager](https://github.com/persepolisdm/persepolis)** [![GitHub_Stars](https://img.shields.io/github/stars/persepolisdm/persepolis?style=social&color=white)](https://github.com/persepolisdm/persepolis/stargazers)  
     A cross-platform Python and Qt GUI frontend for `aria2`. Provides an intuitive graphical interface for multi-segment downloads, scheduled queue pipelines, and clipboard monitoring.
 
-13. **[Surge](https://github.com/SurgeDM/Surge)** [![GitHub stars](https://img.shields.io/github/stars/SurgeDM/Surge?style=social&color=white)](https://github.com/SurgeDM/Surge/stargazers)  
+13. **[Surge](https://github.com/SurgeDM/Surge)** [![GitHub_Stars](https://img.shields.io/github/stars/SurgeDM/Surge?style=social&color=white)](https://github.com/SurgeDM/Surge/stargazers)  
     A blazing-fast Terminal User Interface (TUI) download manager built in Go for power users, offering interactive keyboard navigation, multi-thread acceleration, and zero bloat.
 
-14. **[DownThemAll!](https://github.com/downthemall/downthemall)** [![GitHub stars](https://img.shields.io/github/stars/downthemall/downthemall?style=social&color=white)](https://github.com/downthemall/downthemall/stargazers)  
+14. **[DownThemAll!](https://github.com/downthemall/downthemall)** [![GitHub_Stars](https://img.shields.io/github/stars/downthemall/downthemall?style=social&color=white)](https://github.com/downthemall/downthemall/stargazers)  
     The legendary mass download extension for Firefox and Chrome. Allows users to download all links, images, media, or tabs with highly customizable regex filters, file rename masks, and parallel queue management.
 
-15. **[JDownloader (Open Source Core)](https://github.com/mirror/jdownloader)** [![GitHub stars](https://img.shields.io/github/stars/mirror/jdownloader?style=social&color=white)](https://github.com/mirror/jdownloader/stargazers)  
+15. **[JDownloader (Open Source Core)](https://github.com/mirror/jdownloader)** [![GitHub_Stars](https://img.shields.io/github/stars/mirror/jdownloader?style=social&color=white)](https://github.com/mirror/jdownloader/stargazers)  
     The open-source core framework behind JDownloader. Provides automated link grabbing, OCR/service captcha handling, container unpacking (`.rar`, `.zip`, 7z), and support for 1,100+ file hosting portals.
 
-16. **[uGet Integrator](https://github.com/ugetdm/uget-integrator)** [![GitHub stars](https://img.shields.io/github/stars/ugetdm/uget-integrator?style=social&color=white)](https://github.com/ugetdm/uget-integrator/stargazers)  
+16. **[uGet Integrator](https://github.com/ugetdm/uget-integrator)** [![GitHub_Stars](https://img.shields.io/github/stars/ugetdm/uget-integrator?style=social&color=white)](https://github.com/ugetdm/uget-integrator/stargazers)  
     Native messaging host connecting web browsers (Chrome, Firefox, Vivaldi, Opera) with the uGet multi-threaded download manager backend.
 
-17. **[mox](https://github.com/moxart/moxdl)** [![GitHub stars](https://img.shields.io/github/stars/moxart/moxdl?style=social&color=white)](https://github.com/moxart/moxdl/stargazers)  
+17. **[mox](https://github.com/moxart/moxdl)** [![GitHub_Stars](https://img.shields.io/github/stars/moxart/moxdl?style=social&color=white)](https://github.com/moxart/moxdl/stargazers)  
     A single-file Python terminal download manager supporting up to 64 connections per task, resume capability, clipboard monitoring, scheduled downloads, and SHA-256 verification with zero external dependencies.
 
 ---
@@ -170,7 +170,7 @@ Contributions from the developer community are warmly welcomed! To suggest a new
 1. 🍴 **Fork** this repository.
 2. 📝 **Add or edit** entries in [`README.md`](README.md):
    - For SaaS tools: Include product name, company, pricing starting tier, and exact free tier limits.
-   - For open-source tools: Include repo link, star badge `[![GitHub stars](https://img.shields.io/github/stars/<owner>/<repo>?style=social&color=white)](https://github.com/<owner>/<repo>/stargazers)`, and place it according to star count ranking.
+   - For open-source tools: Include repo link, Stars_Badge `[![GitHub_Stars](https://img.shields.io/github/stars/<owner>/<repo>?style=social&color=white)](https://github.com/<owner>/<repo>/stargazers)`, and place it according to Stars_Count ranking.
 3. 🚀 **Submit a Pull Request** with a concise description of your changes.
 
 ---
@@ -215,3 +215,12 @@ If this curated guide helps you discover faster download tools, optimize transfe
 <div align="center">
   <sub>Maintained with ❤️ by <a href="https://github.com/ishandutta2007">ishandutta2007</a> and the open-source community.</sub>
 </div>
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Download-Utilities&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Download-Utilities_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Download-Utilities_growth.svg">
+  </picture>
+</a>
