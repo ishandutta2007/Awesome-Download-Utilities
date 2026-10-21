@@ -29,6 +29,7 @@
 - [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
 - [🏗️ Architectural Frameworks & Synergy](#️-architectural-frameworks--synergy)
 - [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
 - [⚖️ Disclaimer](#️-disclaimer)
 - [⭐ Star History](#-star-history)
 
@@ -174,6 +175,25 @@ Contributions from the developer community are warmly welcomed! To suggest a new
 
 ---
 
+## 💖 Support & Sponsorship
+
+Thank you so much for exploring and supporting **Awesome Download Utilities**! 🙏
+
+If this curated guide helps you discover faster download tools, optimize transfer workflows, or build automated pipelines, please consider supporting the project:
+
+- ⭐ **Star this repository** on GitHub to help others discover it.
+- 🍴 **Fork and contribute** your favorite utilities, benchmarks, or documentation improvements.
+- 📢 **Share** with your developer network, colleagues, and community.
+- ☕ **Buy me a coffee / Sponsor**: If you appreciate this work and want to support ongoing maintenance and new additions, you can sponsor via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=github-sponsors" alt="Sponsor on GitHub" />
+  </a>
+</p>
+
+---
+
 ## ⚖️ Disclaimer
 
 - This list is **community-curated** for educational, technical, and informational purposes. Mention does not constitute commercial endorsement.
@@ -184,12 +204,11 @@ Contributions from the developer community are warmly welcomed! To suggest a new
 
 ## ⭐ Star History
 
-<a href="https://star-history.com/#ishandutta2007/Awesome-Download-Utilities&Timeline" align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Download-Utilities_growth.svg">
-    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Download-Utilities_growth.svg">
-  </picture>
-</a>
+<div align="center">
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Download-Utilities&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Download-Utilities&type=date&legend=top-left)
+
+</div>
 
 ---
 
