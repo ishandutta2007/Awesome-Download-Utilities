@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <linearGradient id="cyanPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4">
+        <animate attributeName="stop-color" values="#06b6d4;#8b5cf6;#3b82f6;#06b6d4" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#3b82f6">
+        <animate attributeName="stop-color" values="#3b82f6;#ec4899;#8b5cf6;#3b82f6" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="streamGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00c6ff" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0072ff" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="streamGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0" />
+      <stop offset="50%" stop-color="#c084fc" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="streamGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0" />
+      <stop offset="50%" stop-color="#34d399" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#059669" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.7" stroke-opacity="0.6"/>
+      <circle cx="40" cy="40" r="1" fill="#38bdf8" fill-opacity="0.2"/>
+    </pattern>
+
+    <!-- Glowing Filters -->
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <filter id="glowTitle" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0ea5e9" flood-opacity="0.4" />
+    </filter>
+
+    <style>
+      @keyframes pulseBeam {
+        0% { stroke-dashoffset: 1200; opacity: 0.2; }
+        50% { opacity: 0.9; }
+        100% { stroke-dashoffset: 0; opacity: 0.2; }
+      }
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-6px); }
+      }
+      @keyframes progressAnim {
+        0% { width: 40px; }
+        50% { width: 140px; }
+        100% { width: 40px; }
+      }
+      @keyframes radarSweep {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      .beam-1 {
+        stroke-dasharray: 200, 400;
+        animation: pulseBeam 4s linear infinite;
+      }
+      .beam-2 {
+        stroke-dasharray: 150, 450;
+        animation: pulseBeam 5.5s linear infinite;
+      }
+      .beam-3 {
+        stroke-dasharray: 250, 350;
+        animation: pulseBeam 3.5s linear infinite reverse;
+      }
+      .floating-group {
+        animation: floatSlow 6s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- 1. Background Base -->
+  <rect width="1200" height="320" rx="16" fill="url(#bgGrad)" />
+  <rect width="1200" height="320" rx="16" fill="url(#grid)" />
+
+  <!-- Outer Border with Neon Accent -->
+  <rect width="1198" height="318" x="1" y="1" rx="15" fill="none" stroke="#334155" stroke-width="1.5" stroke-opacity="0.7" />
+
+  <!-- 2. Dynamic Animated Background Elements -->
+  <!-- Multi-Stream Transmission Lines (Data Beams) -->
+  <g opacity="0.8">
+    <!-- Stream 1 (Cyan) -->
+    <path d="M 0 60 Q 300 90, 600 40 T 1200 70" fill="none" stroke="#0ea5e9" stroke-width="1.2" opacity="0.15" />
+    <path class="beam-1" d="M 0 60 Q 300 90, 600 40 T 1200 70" fill="none" stroke="url(#streamGrad1)" stroke-width="2.5" />
+
+    <!-- Stream 2 (Purple) -->
+    <path d="M 0 170 Q 350 140, 700 200 T 1200 160" fill="none" stroke="#a855f7" stroke-width="1.2" opacity="0.12" />
+    <path class="beam-2" d="M 0 170 Q 350 140, 700 200 T 1200 160" fill="none" stroke="url(#streamGrad2)" stroke-width="2.5" />
+
+    <!-- Stream 3 (Emerald) -->
+    <path d="M 0 260 Q 400 290, 800 240 T 1200 270" fill="none" stroke="#10b981" stroke-width="1.2" opacity="0.15" />
+    <path class="beam-3" d="M 0 260 Q 400 290, 800 240 T 1200 270" fill="none" stroke="url(#streamGrad3)" stroke-width="2.5" />
+  </g>
+
+  <!-- Decorative Orbit / Packet Nodes (Right Background) -->
+  <g transform="translate(1050, 160)" opacity="0.45">
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#38bdf8" stroke-width="1" stroke-dasharray="4,8" opacity="0.3">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="25s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#818cf8" stroke-width="1.2" stroke-dasharray="8,6" opacity="0.4">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="18s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="40" fill="#0f172a" stroke="#06b6d4" stroke-width="1.5" />
+    <!-- Down Arrow Icon Inside Hub -->
+    <path d="M -10 -8 L 0 5 L 10 -8 M 0 -14 L 0 4 M -12 12 L 12 12" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Animated Download Speed Meter Pill (Right Midground) -->
+  <g class="floating-group" transform="translate(900, 48)">
+    <rect width="240" height="72" rx="10" fill="#0f172a" fill-opacity="0.85" stroke="#1e293b" stroke-width="1.2"/>
+    <circle cx="28" cy="36" r="12" fill="#065f46" />
+    <path d="M 24 36 L 27 39 L 33 32" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round"/>
+    <text x="50" y="30" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" letter-spacing="0.5">MULTI-STREAM ENGINE</text>
+    <text x="50" y="50" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700">32x Connections</text>
+  </g>
+
+  <!-- Animated Active Bandwidth Pill (Right Low-midground) -->
+  <g class="floating-group" transform="translate(930, 205)">
+    <rect width="210" height="66" rx="10" fill="#0f172a" fill-opacity="0.85" stroke="#1e293b" stroke-width="1.2"/>
+    <text x="20" y="28" fill="#a78bfa" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">THROUGHPUT</text>
+    <text x="20" y="50" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="800">1.25 Gbps</text>
+    <!-- Dynamic Pulse Dot -->
+    <circle cx="180" cy="33" r="5" fill="#22c55e">
+      <animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- 3. Foreground Content (Header, Title, Subtitle, Badges) -->
+  <!-- Top Category Tag -->
+  <g transform="translate(60, 52)">
+    <rect width="186" height="28" rx="14" fill="#0369a1" fill-opacity="0.25" stroke="#0ea5e9" stroke-width="1"/>
+    <circle cx="16" cy="14" r="4" fill="#38bdf8">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="28" y="19" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">CURATED ECOSYSTEM</text>
+  </g>
+
+  <!-- Main Title -->
+  <g transform="translate(60, 130)" filter="url(#glowTitle)">
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="900" fill="#ffffff" letter-spacing="-0.5">
+      Awesome <tspan fill="url(#cyanPurple)">Download Utilities</tspan>
+    </text>
+  </g>
+
+  <!-- Subtitle -->
+  <g transform="translate(60, 172)">
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#94a3b8" letter-spacing="0.2">
+      Curated index of high-speed accelerators, multi-segment managers, CLI engines &amp; cloud downloaders.
+    </text>
+  </g>
+
+  <!-- Feature Pills / Badges in Foreground -->
+  <g transform="translate(60, 222)">
+    <!-- Pill 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="170" height="36" rx="8" fill="#1e293b" fill-opacity="0.75" stroke="#334155" stroke-width="1"/>
+      <text x="14" y="23" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">⚡ Dynamic Splitting</text>
+    </g>
+
+    <!-- Pill 2 -->
+    <g transform="translate(182, 0)">
+      <rect width="190" height="36" rx="8" fill="#1e293b" fill-opacity="0.75" stroke="#334155" stroke-width="1"/>
+      <text x="14" y="23" fill="#a78bfa" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">🌐 HTTP • FTP • Torrent</text>
+    </g>
+
+    <!-- Pill 3 -->
+    <g transform="translate(384, 0)">
+      <rect width="180" height="36" rx="8" fill="#1e293b" fill-opacity="0.75" stroke="#334155" stroke-width="1"/>
+      <text x="14" y="23" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">🚀 CLI &amp; GUI Power</text>
+    </g>
+
+    <!-- Pill 4 -->
+    <g transform="translate(576, 0)">
+      <rect width="160" height="36" rx="8" fill="#1e293b" fill-opacity="0.75" stroke="#334155" stroke-width="1"/>
+      <text x="14" y="23" fill="#fbbf24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">🔒 Resume &amp; Verify</text>
+    </g>
+  </g>
+</svg>
