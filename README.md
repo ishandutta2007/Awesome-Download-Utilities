@@ -207,3 +207,12 @@ Star the repo if you find it useful!
 **Made for developers, technical writers, and organizations building transparent documentation solutions.**  
 
 Let's make Documentation Site Generators more open, data-driven, and agent-ready.
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Download-Utilities&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Download-Utilities_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Download-Utilities_growth.svg">
+  </picture>
+</a>
